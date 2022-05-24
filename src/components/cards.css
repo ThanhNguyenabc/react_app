@@ -1,0 +1,29 @@
+.cards {
+    padding: 4rem;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+margin: auto;
+}
+
+.cards-wrapper {
+    margin: 50px 0 45px;
+}
+
+.cards-items {
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .cards-items {
+        display: flex;
+    }
+}
